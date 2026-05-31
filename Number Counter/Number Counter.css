@@ -1,0 +1,23 @@
+#countlabel{
+    display: block;
+    text-align: center;
+    font-size: 10em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: hsla(0, 91%, 26%, 0.696);
+}
+#btnContainer{
+    text-align: center;
+}
+.Button{
+    padding: 0.8em 2em;
+    border-radius: 3px;
+    font-size: 15px;
+    color: bisque;
+    background-color: hsl(288, 91%, 35%);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.Button:hover{
+    background-color: hsl(288, 65%, 41%);
+}
